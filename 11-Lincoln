@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Simple Blog - Jose Jeffrey</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f2f2f2;
+    }
+    header {
+      background: #4CAF50;
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+    nav {
+      background: #333;
+      padding: 10px;
+      text-align: center;
+    }
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    .container {
+      max-width: 800px;
+      margin: auto;
+      background: white;
+      padding: 20px;
+    }
+    h2 {
+      color: #4CAF50;
+    }
+    footer {
+      text-align: center;
+      padding: 10px;
+      background: #333;
+      color: white;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Welcome to My Blog</h1>
+    <p>Created by: <b>Jose Jeffrey</b></p>
+  </header>
+
+  <nav>
+    <a href="#about">About Me</a>
+    <a href="#posts">Blog Posts</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <div class="container">
+    <section id="about">
+      <h2>About Me</h2>
+      <p>Hello! My name is <b>Jose Jeffrey</b>, and I’m a high school student from the Philippines. This is my simple blog where I share my thoughts, learnings, and experiences as a student. I hope you enjoy reading my posts!</p>
+    </section>
+
+    <section id="posts">
+      <h2>My Blog Posts</h2>
+
+      <article>
+        <h3>🌟 My Dream in Life</h3>
+        <p>As a student, I dream to finish my studies and become a successful professional one day. I want to help my family and inspire other young people to never give up on their dreams.</p>
+      </article>
+
+      <article>
+        <h3>📚 School Life</h3>
+        <p>Being a student is not easy, but it is fun. We learn new lessons, meet friends, and face challenges that make us stronger. Every day is a chance to grow and improve.</p>
+      </article>
+
+      <article>
+        <h3>🌏 My Inspiration</h3>
+        <p>I get inspiration from my family, teachers, and classmates. They encourage me to keep working hard and stay motivated even when things get difficult.</p>
+      </article>
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>You can reach me at: <b>josejeffrey@example.com</b></p>
+    </section>
+  </div>
+
+  <footer>
+    <p>© 2025 My Simple Blog | Created by Jose Jeffrey</p>
+  </footer>
+</body>
+</html>
